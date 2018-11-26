@@ -6,12 +6,11 @@ sampling to control the size of the structure.
 
 ## Getting Started
 
-this assumes you have docker and kubernetes working, ie that `docker`
-and `kubectl` are working. if that is the case do the following to
-generate the docker images, create the k8 deployments and services:
+this assumes you have a recent python with virtualbox installed.
 
 ```
 $ virtualenv .py
+$ . .py/bin/activate
 $ pip install -r requirements.txt
 ```
 
@@ -24,10 +23,6 @@ $ jupyter notebook
 ```
 
 and run the buffers from top to bottom.
-
-
-
-
 
 
 
